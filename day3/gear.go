@@ -86,7 +86,7 @@ func parseds_p2 (ds []linedata) int {
 
 func main() {
     collect_p1, collect_p2 := 0, 0
-    input, _ := os.ReadFile("../input")
+    input, _ := os.ReadFile("./input")
     datastore := make([]linedata, 0)
     linelist := strings.Split(string(input), "\n")
 

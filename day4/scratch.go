@@ -32,7 +32,7 @@ func main() {
 
     collect_p1, collect_p2 := 0, 0
 
-    input, err := os.ReadFile("../input")
+    input, err := os.ReadFile("./input")
     if err != nil {
         panic(err)
     }
